@@ -1,6 +1,5 @@
 [DEFAULT]
-dist = buster-backports
-debian-branch = debian/X.Y/buster-backports
+debian-branch = golang-X.Y
 debian-tag = debian/%(version)s
 upstream-branch = upstream-X.Y
 upstream-tag = upstream/%(version)s
